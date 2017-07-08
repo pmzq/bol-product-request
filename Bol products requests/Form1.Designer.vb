@@ -22,9 +22,63 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.txtUrl1 = New System.Windows.Forms.TextBox()
+        Me.txtOutput = New System.Windows.Forms.TextBox()
+        Me.SuspendLayout()
+        '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(307, 200)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.TabIndex = 0
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(39, 36)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(52, 17)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "URL 1:"
+        '
+        'txtUrl1
+        '
+        Me.txtUrl1.Location = New System.Drawing.Point(97, 31)
+        Me.txtUrl1.Name = "txtUrl1"
+        Me.txtUrl1.Size = New System.Drawing.Size(558, 22)
+        Me.txtUrl1.TabIndex = 2
+        '
+        'txtOutput
+        '
+        Me.txtOutput.Location = New System.Drawing.Point(155, 264)
+        Me.txtOutput.Multiline = True
+        Me.txtOutput.Name = "txtOutput"
+        Me.txtOutput.Size = New System.Drawing.Size(431, 150)
+        Me.txtOutput.TabIndex = 3
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(849, 478)
+        Me.Controls.Add(Me.txtOutput)
+        Me.Controls.Add(Me.txtUrl1)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Button1)
+        Me.Name = "Form1"
         Me.Text = "Form1"
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
     End Sub
 
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Label1 As Label
+    Friend WithEvents txtUrl1 As TextBox
+    Friend WithEvents txtOutput As TextBox
 End Class
