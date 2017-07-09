@@ -31,7 +31,6 @@ Public Class Form1
             txtUrl5,
             txtUrl6,
             txtUrl7,
-            txtUrl7,
             txtUrl8,
             txtUrl9,
             txtUrl10
@@ -44,7 +43,6 @@ Public Class Form1
             txtAlt4,
             txtAlt5,
             txtAlt6,
-            txtAlt7,
             txtAlt7,
             txtAlt8,
             txtAlt9,
@@ -59,7 +57,6 @@ Public Class Form1
             txtSubid5,
             txtSubid6,
             txtSubid7,
-            txtSubid7,
             txtSubid8,
             txtSubid9,
             txtSubid10
@@ -69,7 +66,7 @@ Public Class Form1
         Bol_ID = "13464"
         Bol_tag = txtTag.Text
 
-        Counter = 1
+        Counter = 0
 
         For Each tb As TextBox In Url_boxes
             Url = tb.Text
@@ -87,6 +84,7 @@ Public Class Form1
                 Call Compose_html()
             Else
             End If
+            Counter = Counter + 1
         Next
 
 
