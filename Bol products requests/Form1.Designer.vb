@@ -66,6 +66,26 @@ Partial Class Form1
         Me.txtUrl10 = New System.Windows.Forms.TextBox()
         Me.txtTag = New System.Windows.Forms.TextBox()
         Me.Label21 = New System.Windows.Forms.Label()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Label23 = New System.Windows.Forms.Label()
+        Me.Label24 = New System.Windows.Forms.Label()
+        Me.Label25 = New System.Windows.Forms.Label()
+        Me.Label26 = New System.Windows.Forms.Label()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.Label29 = New System.Windows.Forms.Label()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.txtSubid1 = New System.Windows.Forms.TextBox()
+        Me.txtSubid10 = New System.Windows.Forms.TextBox()
+        Me.txtSubid9 = New System.Windows.Forms.TextBox()
+        Me.txtSubid8 = New System.Windows.Forms.TextBox()
+        Me.txtSubid7 = New System.Windows.Forms.TextBox()
+        Me.txtSubid6 = New System.Windows.Forms.TextBox()
+        Me.txtSubid5 = New System.Windows.Forms.TextBox()
+        Me.txtSubid4 = New System.Windows.Forms.TextBox()
+        Me.txtSubid3 = New System.Windows.Forms.TextBox()
+        Me.txtSubid2 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Button1
@@ -105,7 +125,7 @@ Partial Class Form1
         '
         Me.txtAlt1.Location = New System.Drawing.Point(99, 40)
         Me.txtAlt1.Name = "txtAlt1"
-        Me.txtAlt1.Size = New System.Drawing.Size(558, 22)
+        Me.txtAlt1.Size = New System.Drawing.Size(186, 22)
         Me.txtAlt1.TabIndex = 5
         '
         'Label2
@@ -283,7 +303,7 @@ Partial Class Form1
         '
         Me.txtAlt2.Location = New System.Drawing.Point(99, 103)
         Me.txtAlt2.Name = "txtAlt2"
-        Me.txtAlt2.Size = New System.Drawing.Size(558, 22)
+        Me.txtAlt2.Size = New System.Drawing.Size(186, 22)
         Me.txtAlt2.TabIndex = 23
         '
         'txtUrl2
@@ -297,7 +317,7 @@ Partial Class Form1
         '
         Me.txtAlt3.Location = New System.Drawing.Point(99, 161)
         Me.txtAlt3.Name = "txtAlt3"
-        Me.txtAlt3.Size = New System.Drawing.Size(558, 22)
+        Me.txtAlt3.Size = New System.Drawing.Size(186, 22)
         Me.txtAlt3.TabIndex = 25
         '
         'txtUrl3
@@ -311,7 +331,7 @@ Partial Class Form1
         '
         Me.txtAlt4.Location = New System.Drawing.Point(99, 217)
         Me.txtAlt4.Name = "txtAlt4"
-        Me.txtAlt4.Size = New System.Drawing.Size(558, 22)
+        Me.txtAlt4.Size = New System.Drawing.Size(186, 22)
         Me.txtAlt4.TabIndex = 27
         '
         'txtUrl4
@@ -325,7 +345,7 @@ Partial Class Form1
         '
         Me.txtAlt5.Location = New System.Drawing.Point(99, 277)
         Me.txtAlt5.Name = "txtAlt5"
-        Me.txtAlt5.Size = New System.Drawing.Size(558, 22)
+        Me.txtAlt5.Size = New System.Drawing.Size(186, 22)
         Me.txtAlt5.TabIndex = 29
         '
         'txtUrl5
@@ -339,7 +359,7 @@ Partial Class Form1
         '
         Me.txtAlt6.Location = New System.Drawing.Point(99, 333)
         Me.txtAlt6.Name = "txtAlt6"
-        Me.txtAlt6.Size = New System.Drawing.Size(558, 22)
+        Me.txtAlt6.Size = New System.Drawing.Size(186, 22)
         Me.txtAlt6.TabIndex = 31
         '
         'txtUrl6
@@ -353,7 +373,7 @@ Partial Class Form1
         '
         Me.txtAlt7.Location = New System.Drawing.Point(99, 393)
         Me.txtAlt7.Name = "txtAlt7"
-        Me.txtAlt7.Size = New System.Drawing.Size(558, 22)
+        Me.txtAlt7.Size = New System.Drawing.Size(186, 22)
         Me.txtAlt7.TabIndex = 33
         '
         'txtUrl7
@@ -367,7 +387,7 @@ Partial Class Form1
         '
         Me.txtAlt8.Location = New System.Drawing.Point(99, 451)
         Me.txtAlt8.Name = "txtAlt8"
-        Me.txtAlt8.Size = New System.Drawing.Size(558, 22)
+        Me.txtAlt8.Size = New System.Drawing.Size(186, 22)
         Me.txtAlt8.TabIndex = 35
         '
         'txtUrl8
@@ -381,7 +401,7 @@ Partial Class Form1
         '
         Me.txtAlt9.Location = New System.Drawing.Point(99, 509)
         Me.txtAlt9.Name = "txtAlt9"
-        Me.txtAlt9.Size = New System.Drawing.Size(558, 22)
+        Me.txtAlt9.Size = New System.Drawing.Size(186, 22)
         Me.txtAlt9.TabIndex = 37
         '
         'txtUrl9
@@ -395,7 +415,7 @@ Partial Class Form1
         '
         Me.txtAlt10.Location = New System.Drawing.Point(99, 567)
         Me.txtAlt10.Name = "txtAlt10"
-        Me.txtAlt10.Size = New System.Drawing.Size(558, 22)
+        Me.txtAlt10.Size = New System.Drawing.Size(186, 22)
         Me.txtAlt10.TabIndex = 39
         '
         'txtUrl10
@@ -421,11 +441,191 @@ Partial Class Form1
         Me.Label21.TabIndex = 41
         Me.Label21.Text = "Tag:"
         '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Location = New System.Drawing.Point(310, 43)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(48, 17)
+        Me.Label22.TabIndex = 42
+        Me.Label22.Text = "Sub id"
+        '
+        'Label23
+        '
+        Me.Label23.AutoSize = True
+        Me.Label23.Location = New System.Drawing.Point(310, 106)
+        Me.Label23.Name = "Label23"
+        Me.Label23.Size = New System.Drawing.Size(48, 17)
+        Me.Label23.TabIndex = 43
+        Me.Label23.Text = "Sub id"
+        '
+        'Label24
+        '
+        Me.Label24.AutoSize = True
+        Me.Label24.Location = New System.Drawing.Point(310, 568)
+        Me.Label24.Name = "Label24"
+        Me.Label24.Size = New System.Drawing.Size(48, 17)
+        Me.Label24.TabIndex = 44
+        Me.Label24.Text = "Sub id"
+        '
+        'Label25
+        '
+        Me.Label25.AutoSize = True
+        Me.Label25.Location = New System.Drawing.Point(310, 512)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(48, 17)
+        Me.Label25.TabIndex = 45
+        Me.Label25.Text = "Sub id"
+        '
+        'Label26
+        '
+        Me.Label26.AutoSize = True
+        Me.Label26.Location = New System.Drawing.Point(310, 452)
+        Me.Label26.Name = "Label26"
+        Me.Label26.Size = New System.Drawing.Size(48, 17)
+        Me.Label26.TabIndex = 46
+        Me.Label26.Text = "Sub id"
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Location = New System.Drawing.Point(310, 394)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(48, 17)
+        Me.Label27.TabIndex = 47
+        Me.Label27.Text = "Sub id"
+        '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.Location = New System.Drawing.Point(310, 336)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(48, 17)
+        Me.Label28.TabIndex = 48
+        Me.Label28.Text = "Sub id"
+        '
+        'Label29
+        '
+        Me.Label29.AutoSize = True
+        Me.Label29.Location = New System.Drawing.Point(310, 278)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New System.Drawing.Size(48, 17)
+        Me.Label29.TabIndex = 49
+        Me.Label29.Text = "Sub id"
+        '
+        'Label30
+        '
+        Me.Label30.AutoSize = True
+        Me.Label30.Location = New System.Drawing.Point(310, 220)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(48, 17)
+        Me.Label30.TabIndex = 50
+        Me.Label30.Text = "Sub id"
+        '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.Location = New System.Drawing.Point(310, 164)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(48, 17)
+        Me.Label31.TabIndex = 51
+        Me.Label31.Text = "Sub id"
+        '
+        'txtSubid1
+        '
+        Me.txtSubid1.Location = New System.Drawing.Point(364, 40)
+        Me.txtSubid1.Name = "txtSubid1"
+        Me.txtSubid1.Size = New System.Drawing.Size(186, 22)
+        Me.txtSubid1.TabIndex = 52
+        '
+        'txtSubid10
+        '
+        Me.txtSubid10.Location = New System.Drawing.Point(364, 567)
+        Me.txtSubid10.Name = "txtSubid10"
+        Me.txtSubid10.Size = New System.Drawing.Size(186, 22)
+        Me.txtSubid10.TabIndex = 54
+        '
+        'txtSubid9
+        '
+        Me.txtSubid9.Location = New System.Drawing.Point(364, 509)
+        Me.txtSubid9.Name = "txtSubid9"
+        Me.txtSubid9.Size = New System.Drawing.Size(186, 22)
+        Me.txtSubid9.TabIndex = 55
+        '
+        'txtSubid8
+        '
+        Me.txtSubid8.Location = New System.Drawing.Point(364, 449)
+        Me.txtSubid8.Name = "txtSubid8"
+        Me.txtSubid8.Size = New System.Drawing.Size(186, 22)
+        Me.txtSubid8.TabIndex = 56
+        '
+        'txtSubid7
+        '
+        Me.txtSubid7.Location = New System.Drawing.Point(364, 393)
+        Me.txtSubid7.Name = "txtSubid7"
+        Me.txtSubid7.Size = New System.Drawing.Size(186, 22)
+        Me.txtSubid7.TabIndex = 57
+        '
+        'txtSubid6
+        '
+        Me.txtSubid6.Location = New System.Drawing.Point(364, 332)
+        Me.txtSubid6.Name = "txtSubid6"
+        Me.txtSubid6.Size = New System.Drawing.Size(186, 22)
+        Me.txtSubid6.TabIndex = 58
+        '
+        'txtSubid5
+        '
+        Me.txtSubid5.Location = New System.Drawing.Point(364, 275)
+        Me.txtSubid5.Name = "txtSubid5"
+        Me.txtSubid5.Size = New System.Drawing.Size(186, 22)
+        Me.txtSubid5.TabIndex = 59
+        '
+        'txtSubid4
+        '
+        Me.txtSubid4.Location = New System.Drawing.Point(364, 217)
+        Me.txtSubid4.Name = "txtSubid4"
+        Me.txtSubid4.Size = New System.Drawing.Size(186, 22)
+        Me.txtSubid4.TabIndex = 60
+        '
+        'txtSubid3
+        '
+        Me.txtSubid3.Location = New System.Drawing.Point(364, 162)
+        Me.txtSubid3.Name = "txtSubid3"
+        Me.txtSubid3.Size = New System.Drawing.Size(186, 22)
+        Me.txtSubid3.TabIndex = 61
+        '
+        'txtSubid2
+        '
+        Me.txtSubid2.Location = New System.Drawing.Point(364, 103)
+        Me.txtSubid2.Name = "txtSubid2"
+        Me.txtSubid2.Size = New System.Drawing.Size(186, 22)
+        Me.txtSubid2.TabIndex = 62
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1282, 655)
+        Me.Controls.Add(Me.txtSubid2)
+        Me.Controls.Add(Me.txtSubid3)
+        Me.Controls.Add(Me.txtSubid4)
+        Me.Controls.Add(Me.txtSubid5)
+        Me.Controls.Add(Me.txtSubid6)
+        Me.Controls.Add(Me.txtSubid7)
+        Me.Controls.Add(Me.txtSubid8)
+        Me.Controls.Add(Me.txtSubid9)
+        Me.Controls.Add(Me.txtSubid10)
+        Me.Controls.Add(Me.txtSubid1)
+        Me.Controls.Add(Me.Label31)
+        Me.Controls.Add(Me.Label30)
+        Me.Controls.Add(Me.Label29)
+        Me.Controls.Add(Me.Label28)
+        Me.Controls.Add(Me.Label27)
+        Me.Controls.Add(Me.Label26)
+        Me.Controls.Add(Me.Label25)
+        Me.Controls.Add(Me.Label24)
+        Me.Controls.Add(Me.Label23)
+        Me.Controls.Add(Me.Label22)
         Me.Controls.Add(Me.Label21)
         Me.Controls.Add(Me.txtTag)
         Me.Controls.Add(Me.txtAlt10)
@@ -521,4 +721,24 @@ Partial Class Form1
     Friend WithEvents txtUrl10 As TextBox
     Friend WithEvents txtTag As TextBox
     Friend WithEvents Label21 As Label
+    Friend WithEvents Label22 As Label
+    Friend WithEvents Label23 As Label
+    Friend WithEvents Label24 As Label
+    Friend WithEvents Label25 As Label
+    Friend WithEvents Label26 As Label
+    Friend WithEvents Label27 As Label
+    Friend WithEvents Label28 As Label
+    Friend WithEvents Label29 As Label
+    Friend WithEvents Label30 As Label
+    Friend WithEvents Label31 As Label
+    Friend WithEvents txtSubid1 As TextBox
+    Friend WithEvents txtSubid10 As TextBox
+    Friend WithEvents txtSubid9 As TextBox
+    Friend WithEvents txtSubid8 As TextBox
+    Friend WithEvents txtSubid7 As TextBox
+    Friend WithEvents txtSubid6 As TextBox
+    Friend WithEvents txtSubid5 As TextBox
+    Friend WithEvents txtSubid4 As TextBox
+    Friend WithEvents txtSubid3 As TextBox
+    Friend WithEvents txtSubid2 As TextBox
 End Class

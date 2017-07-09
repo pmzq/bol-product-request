@@ -15,7 +15,7 @@ Public Class Form1
     Dim Image_urls As Object
     Dim Output As String = ""
     Dim Url, Alt_tag As String
-    Dim Bol_tag As String
+    Dim Bol_tag, Bol_subid As String
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
 
@@ -51,6 +51,20 @@ Public Class Form1
             txtAlt10
         }
 
+        Dim Subid_boxes As New List(Of TextBox)() From {
+            txtSubid1,
+            txtSubid2,
+            txtSubid3,
+            txtSubid4,
+            txtSubid5,
+            txtSubid6,
+            txtSubid7,
+            txtSubid7,
+            txtSubid8,
+            txtSubid9,
+            txtSubid10
+        }
+
         API_key = "66744DFB331F4D9E838E38D48A2052D6"
         Bol_ID = "13464"
         Bol_tag = txtTag.Text
@@ -61,6 +75,7 @@ Public Class Form1
             Url = tb.Text
             If Url <> "" Then
                 Alt_tag = Alt_boxes(Counter).Text
+                Bol_subid = Subid_boxes(Counter).Text
 
                 Dim parts As String() = Url.Split(New Char() {"/"c})
 
@@ -123,11 +138,11 @@ Public Class Form1
 
     Sub Compose_html()
 
-        Output = Output & "&nbsp;&nbsp;<span style=""font-size: 14pt;""><strong><a href=""https://partnerprogramma.bol.com/click/click?p=1&amp;t=url&amp;s=" & Bol_ID & "&amp;f=TXL&amp;url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2F" & Title & "%2F" & Product_id & "&amp;name=" & Bol_tag & ">" & Title & "</a></strong></span>
+        Output = Output & "&nbsp;&nbsp;<span style=""font-size: 14pt;""><strong><a href=""https://partnerprogramma.bol.com/click/click?p=1&t=url&s=" & Bol_ID & "&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2F" & Title & "%2F" & Product_id & "&name=" & Bol_tag & "&subid=" & Bol_subid & """>" & Title & "</a></strong></span>
                 
-                <a href=""" & Image_url & """><img class=""size-thumbnail wp-image-276 alignleft"" src=""" & Image_url & """ alt=""" & Alt_tag & """ width=""150"" height=""150"" /></a>" & Description & "
+                <a href=""" & Image_url & """><img Class=""size-thumbnail wp-image-276 alignleft"" src=""" & Image_url & """ alt=""" & Alt_tag & """ width=""150"" height=""150"" /></a>" & Description & "
 
-                Reviews Bol.com [usr " & Rating / 10 & "]"
+                <a href=""https//partnerprogramma.bol.com/click/click?p=1&t=url&s=" & Bol_ID & "&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2F" & Title & "%2F" & Product_id & "%2F%3FsuggestionType%3Dbrowse%23product_reviews&name=" & Bol_tag & "&subid=Reviews"">Reviews Bol.com</a> [usr " & Rating / 10 & "]"
 
         txtOutput.Text = Output
 
