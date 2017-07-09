@@ -137,11 +137,13 @@ Public Class Form1
 
     Sub Compose_html()
 
-        Output = Output & "&nbsp;&nbsp;<span style=""font-size: 14pt;""><strong><a href=""https://partnerprogramma.bol.com/click/click?p=1&t=url&s=" & Bol_ID & "&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2F" & Title & "%2F" & Product_id & "&name=" & Bol_tag & "&subid=" & Bol_subid & """>" & Title & "</a></strong></span>
+        Output = Output & "
+
+                        <span style=""font-size: 14pt;""><strong><a href=""https://partnerprogramma.bol.com/click/click?p=1&t=url&s=" & Bol_ID & "&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2F" & Title & "%2F" & Product_id & "&name=" & Bol_tag & "&subid=" & Bol_subid & """>" & Title & "</a></strong></span>
                 
                 <a href=""" & Image_url & """><img Class=""size-thumbnail wp-image-276 alignleft"" src=""" & Image_url & """ alt=""" & Alt_tag & """ width=""150"" height=""150"" /></a>" & Description & "
 
-                <a href=""https://partnerprogramma.bol.com/click/click?p=1&t=url&s=" & Bol_ID & "&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2F" & Title & "%2F" & Product_id & "%2F%3FsuggestionType%3Dbrowse%23product_reviews&name=" & Bol_tag & "&subid=Reviews"">Reviews Bol.com</a> [usr " & Rating / 10 & "]&nbsp;"
+                <a href=""https://partnerprogramma.bol.com/click/click?p=1&t=url&s=" & Bol_ID & "&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2F" & Title & "%2F" & Product_id & "%2F%3FsuggestionType%3Dbrowse%23product_reviews&name=" & Bol_tag & "&subid=Reviews"">Reviews Bol.com</a> [usr " & Rating / 10 & "]"
 
         txtOutput.Text = Output
 

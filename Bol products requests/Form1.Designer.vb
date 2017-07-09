@@ -537,6 +537,7 @@ Partial Class Form1
         Me.txtSubid1.Name = "txtSubid1"
         Me.txtSubid1.Size = New System.Drawing.Size(186, 22)
         Me.txtSubid1.TabIndex = 52
+        Me.txtSubid1.Text = "1"
         '
         'txtSubid10
         '
@@ -544,6 +545,7 @@ Partial Class Form1
         Me.txtSubid10.Name = "txtSubid10"
         Me.txtSubid10.Size = New System.Drawing.Size(186, 22)
         Me.txtSubid10.TabIndex = 54
+        Me.txtSubid10.Text = "10"
         '
         'txtSubid9
         '
@@ -551,6 +553,7 @@ Partial Class Form1
         Me.txtSubid9.Name = "txtSubid9"
         Me.txtSubid9.Size = New System.Drawing.Size(186, 22)
         Me.txtSubid9.TabIndex = 55
+        Me.txtSubid9.Text = "9"
         '
         'txtSubid8
         '
@@ -558,6 +561,7 @@ Partial Class Form1
         Me.txtSubid8.Name = "txtSubid8"
         Me.txtSubid8.Size = New System.Drawing.Size(186, 22)
         Me.txtSubid8.TabIndex = 56
+        Me.txtSubid8.Text = "8"
         '
         'txtSubid7
         '
@@ -565,6 +569,7 @@ Partial Class Form1
         Me.txtSubid7.Name = "txtSubid7"
         Me.txtSubid7.Size = New System.Drawing.Size(186, 22)
         Me.txtSubid7.TabIndex = 57
+        Me.txtSubid7.Text = "7"
         '
         'txtSubid6
         '
@@ -572,6 +577,7 @@ Partial Class Form1
         Me.txtSubid6.Name = "txtSubid6"
         Me.txtSubid6.Size = New System.Drawing.Size(186, 22)
         Me.txtSubid6.TabIndex = 58
+        Me.txtSubid6.Text = "6"
         '
         'txtSubid5
         '
@@ -579,6 +585,7 @@ Partial Class Form1
         Me.txtSubid5.Name = "txtSubid5"
         Me.txtSubid5.Size = New System.Drawing.Size(186, 22)
         Me.txtSubid5.TabIndex = 59
+        Me.txtSubid5.Text = "5"
         '
         'txtSubid4
         '
@@ -586,6 +593,7 @@ Partial Class Form1
         Me.txtSubid4.Name = "txtSubid4"
         Me.txtSubid4.Size = New System.Drawing.Size(186, 22)
         Me.txtSubid4.TabIndex = 60
+        Me.txtSubid4.Text = "4"
         '
         'txtSubid3
         '
@@ -593,6 +601,7 @@ Partial Class Form1
         Me.txtSubid3.Name = "txtSubid3"
         Me.txtSubid3.Size = New System.Drawing.Size(186, 22)
         Me.txtSubid3.TabIndex = 61
+        Me.txtSubid3.Text = "3"
         '
         'txtSubid2
         '
@@ -600,6 +609,7 @@ Partial Class Form1
         Me.txtSubid2.Name = "txtSubid2"
         Me.txtSubid2.Size = New System.Drawing.Size(186, 22)
         Me.txtSubid2.TabIndex = 62
+        Me.txtSubid2.Text = "2"
         '
         'Form1
         '
