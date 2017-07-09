@@ -141,7 +141,7 @@ Public Class Form1
                 
                 <a href=""" & Image_url & """><img Class=""size-thumbnail wp-image-276 alignleft"" src=""" & Image_url & """ alt=""" & Alt_tag & """ width=""150"" height=""150"" /></a>" & Description & "
 
-                <a href=""https://partnerprogramma.bol.com/click/click?p=1&t=url&s=" & Bol_ID & "&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2F" & Title & "%2F" & Product_id & "%2F%3FsuggestionType%3Dbrowse%23product_reviews&name=" & Bol_tag & "&subid=Reviews"">Reviews Bol.com</a> [usr " & Rating / 10 & "]"
+                <a href=""https://partnerprogramma.bol.com/click/click?p=1&t=url&s=" & Bol_ID & "&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2F" & Title & "%2F" & Product_id & "%2F%3FsuggestionType%3Dbrowse%23product_reviews&name=" & Bol_tag & "&subid=Reviews"">Reviews Bol.com</a> [usr " & Rating / 10 & "]&nbsp;"
 
         txtOutput.Text = Output
 
